@@ -1,11 +1,14 @@
 {
   "name": "mw-uploader",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.2",
+  "private": false,
+  "main": "dist/js/app.js",
+  "author": "Milkway",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "repository": "https://github.com/Waymilk/mw-imgUploader.git",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
@@ -21,5 +24,8 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/Waymilk/mw-imgUploader/issues"
+  }
 }

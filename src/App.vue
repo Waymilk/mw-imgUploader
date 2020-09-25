@@ -1,17 +1,27 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <imgUploader
+      :width="100"
+      :height="100"
+      :limit="4"
+      @empty="emptyShow"
+      @upload="uploadImg"
+    >
+      <button>上传</button>
+    </imgUploader>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+  },
+  methods:{
+    emptyShow(){},
+    uploadImg(){}
   }
 }
 </script>
